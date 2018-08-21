@@ -58,6 +58,13 @@
       var mes_atual = mes.val();
       console.log(mes_atual);
 
+     if(tipo_atual == 1){
+      var total = parseInt(quantidade_atual) * preco_ingresso;
+    } else{
+      var total = parseInt(quantidade_atual) * (preco_ingresso / 2);
+    }
+      var troco = parseInt(valor_atual)  - total;
+
 
 
 
