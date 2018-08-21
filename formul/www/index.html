@@ -80,9 +80,8 @@
         <option value="12">Dezembro</option>
       </select>
 
-
-
   	<br><button type="button" class="enviar">Comprar</button>	
+    
   </form>
 
   <div class="mensagem">
@@ -114,14 +113,14 @@
       var mes_atual = mes.val();
       console.log(mes_atual);
 
-     if(tipo_atual == 1){
+    if(tipo_atual == 1){
       var total = parseInt(quantidade_atual) * preco_ingresso;
     } else{
       var total = parseInt(quantidade_atual) * (preco_ingresso / 2);
     }
       var troco = parseInt(valor_atual)  - total;
 
-           if(dia_atual==1){
+    if(dia_atual==1){
       var data = 1;
     } else  if(dia_atual==2){
       var data = 2;
@@ -210,6 +209,10 @@
     } else  if(mes_atual==12){
       var mesdata = "Dezembro";
     }
+
+    mensagem.text("Valor total será de: R$"+ total + ". Troco: R$" + troco +". No dia: " +data+ " mês: "+ mesdata +".");
+
+  });
 
 
 
