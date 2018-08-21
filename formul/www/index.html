@@ -95,6 +95,9 @@
   valor=$('#valor');
   quantidade=$('#quantidade'); //o # indica ID
   tipo=$('#tipo');
+   dia=$('#dia');
+  mes=$('#mes');
+
 
   enviar.on("click", function(){
       console.log("OK");
@@ -117,6 +120,96 @@
       var total = parseInt(quantidade_atual) * (preco_ingresso / 2);
     }
       var troco = parseInt(valor_atual)  - total;
+
+           if(dia_atual==1){
+      var data = 1;
+    } else  if(dia_atual==2){
+      var data = 2;
+    } else  if(dia_atual==3){
+      var data = 3;
+    } else  if(dia_atual==4){
+      var data = 4;
+    } else  if(dia_atual==5){
+      var data = 5;
+    } else  if(dia_atual==6){
+      var data = 6;
+    } else  if(dia_atual==7){
+      var data = 7;
+    } else  if(dia_atual==8){
+      var data = 8;
+    } else  if(dia_atual==9){
+      var data = 9;
+    } else  if(dia_atual==10){
+      var data = 10;
+    } else  if(dia_atual==11){
+      var data = 11;
+    } else  if(dia_atual==12){
+      var data = 12;
+    } else  if(dia_atual==13){
+      var data = 13;
+    } else  if(dia_atual==14){
+      var data = 14;
+    } else  if(dia_atual==15){
+      var data = 15;
+    } else  if(dia_atual==16){
+      var data = 16;
+    } else  if(dia_atual==17){
+      var data = 17;
+    } else  if(dia_atual==18){
+      var data = 18;
+    } else  if(dia_atual==19){
+      var data = 19;
+    } else  if(dia_atual==20){
+      var data = 20;
+    } else  if(dia_atual==21){
+      var data = 21;
+    } else  if(dia_atual==22){
+      var data = 22;
+    } else  if(dia_atual==23){
+      var data = 23;
+    } else  if(dia_atual==24){
+      var data = 24;
+    } else  if(dia_atual==25){
+      var data = 25;
+    } else  if(dia_atual==26){
+      var data = 26;
+    } else  if(dia_atual==27){
+      var data = 27;
+    } else  if(dia_atual==28){
+      var data = 28;
+    } else  if(dia_atual==29){
+      var data = 29;
+    } else  if(dia_atual==30){
+      var data = 30;
+    } else  if(dia_atual==31){
+      var data = 31;
+    }
+
+    if(mes_atual==1){
+      var mesdata = "Janeiro";
+    } else  if(mes_atual==2){
+      var mesdata = "Fevereiro";
+    } else  if(mes_atual==3){
+      var mesdata = "Março";
+    } else  if(mes_atual==4){
+      var mesdata = "Abril";
+    } else  if(mes_atual==5){
+      var mesdata = "Maio";
+    } else  if(mes_atual==6){
+      var mesdata = "Junho";
+    } else  if(mes_atual==7){
+      var mesdata = "Julho";
+    } else  if(mes_atual==8){
+      var mesdata = "Agosto";
+    } else  if(mes_atual==9){
+      var mesdata = "Setembro";
+    } else  if(mes_atual==10){
+      var mesdata = "Outubro";
+    } else  if(mes_atual==11){
+      var mesdata = "Novembro";
+    } else  if(mes_atual==12){
+      var mesdata = "Dezembro";
+    }
 
 
 
