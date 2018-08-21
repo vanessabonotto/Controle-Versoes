@@ -1,0 +1,50 @@
+body{
+	background: #ADD8E6;
+}
+div{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4vw 2vw 2vw 4vw;
+}
+div img{ 
+	width: 30vw;
+	height: 20vh;
+}
+div h1{
+	color: #00BFFF;
+	font-size: 2.5em;
+	padding: 8vw 2vw 2vw 4vw;
+}
+
+div h1 span{
+	color: orange;
+	font-size: 2em;
+}
+
+div h2{
+	color:#4682B4;
+	text-align: center;
+	padding: 2vw 2vw 2vw 10vw;
+}
+
+form{
+	color: #4682B4;
+}
+
+form legend{
+	text-align: center;
+	padding: 2vw 2vw 8vw 2vw;
+}
+
+form label{
+	font-size: 2em;
+	padding: 0 0 2vw 2vw;
+}
+
+form button{
+	margin: 8vw 15vw 2vw 40vw;
+}
+
+.mensagem{
+	color: #4682B4;
+}
