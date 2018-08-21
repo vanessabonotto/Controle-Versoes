@@ -43,6 +43,22 @@
   quantidade=$('#quantidade'); //o # indica ID
   tipo=$('#tipo');
 
+  enviar.on("click", function(){
+      console.log("OK");
+      var valor_atual = valor.val(); //pega valor de formulário
+      console.log(valor_atual);
+      var quantidade_atual = quantidade.val(); //pega quantidade de formulário
+      console.log(quantidade_atual);
+      var tipo_atual = tipo.val(); //pega tipo de formulário
+      console.log(tipo_atual);
+      mensagem=$(".mensagem");
+      var preco_ingresso = 30;
+      var dia_atual = dia.val();
+      console.log(dia_atual);
+      var mes_atual = mes.val();
+      console.log(mes_atual);
+
+
 
 
 </script>
